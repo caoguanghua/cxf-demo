@@ -1,8 +1,8 @@
-package com.dogiant.demo;
+package com.mes.cxf.service;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.dogiant.demo.CXFDemo", serviceName = "cxfDemo")
+@WebService(endpointInterface = "com.mes.cxf.service.CXFDemo", serviceName = "cxfDemo")
 public class CXFDemoImpl implements CXFDemo {
 
 	@Override

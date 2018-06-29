@@ -1,4 +1,4 @@
-package com.dogiant.demo;
+package com.mes.cxf.service;
 
 import javax.jws.WebService;
 

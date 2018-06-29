@@ -1,4 +1,4 @@
-package com.dogiant.demo.rs.domain;
+package com.mes.cxf.bean;
 
 import java.util.Date;
 

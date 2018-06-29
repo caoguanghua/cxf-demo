@@ -11,8 +11,9 @@
 	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
 	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
 
-	<jaxws:endpoint id="cxfDemo" implementor="com.dogiant.demo.CXFDemoImpl"
+	<jaxws:endpoint id="cxfDemo" implementor="com.mes.cxf.service.CXFDemoImpl"
 		address="/cxfdemo" />
-
+	<jaxws:endpoint id="CXFSpareParts" implementor="com.mes.cxf.service.CXFSparePartsServiceImpl"
+			address="/spareParts" />
 
 </beans>
